@@ -296,3 +296,18 @@ body{
         transform:rotateY(360deg);
     }
 }
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    padding: 15px 0;
+    font-size: 0.8rem;
+    color: #888;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
