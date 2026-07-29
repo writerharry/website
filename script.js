@@ -1,0 +1,15 @@
+// Smooth button animation
+
+const buttons = document.querySelectorAll(".btn");
+
+buttons.forEach(button => {
+    button.addEventListener("mouseenter", () => {
+        button.style.transform = "translateY(-3px)";
+    });
+
+    button.addEventListener("mouseleave", () => {
+        button.style.transform = "translateY(0px)";
+    });
+});
+
+
